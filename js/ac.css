@@ -1,0 +1,133 @@
+/* Example tokeninput style #2: Sponge style */
+ul.token-input-list-spng {
+    overflow: hidden; 
+    height: auto !important; 
+    width: 608px;
+    border: 1px solid #DCDFE4;
+    cursor: text;
+    font-size: 14px;
+    font-family: inherit;
+    min-height: 1px;
+    z-index: 999;
+    margin: 0;
+    padding: 3px 0;
+    background-color: #fff;
+    list-style-type: none;
+    clear: left;
+}
+
+.admin ul.token-input-list-spng {
+    width: 500px;
+    border: 1px solid #d6d6d6;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+}
+
+ul.token-input-list-spng li input {
+    border: 0;
+    width: 100px;
+    padding: 3px 8px;
+    background-color: white;
+    margin: 2px 0;
+    font-size: 14px;
+    -webkit-appearance: caret;
+    color: #5d6268;
+}
+
+li.token-input-token-spng {
+    overflow: hidden; 
+    height: auto !important; 
+    height: 15px;
+    margin: 3px;
+    padding: 2px 6px 3px;
+    background-color: #f1f1f1;
+    color: #5D6268;
+    cursor: default;
+    border-top: 1px solid #e4e4e4;
+    font-size: 12px;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    float: left;
+    white-space: nowrap;
+}
+
+li.token-input-token-spng p {
+    display: inline;
+    padding: 0;
+    margin: 0;
+}
+
+li.token-input-token-spng span {
+    color: #5D6268;
+    margin-left: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+li.token-input-selected-token-spng {
+    background-color: #e4e4e4;
+}
+
+li.token-input-input-token-spng {
+    float: left;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+div.token-input-dropdown-spng {
+    position: absolute;
+    width: 608px;
+    background-color: #fff;
+    overflow: hidden;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    cursor: default;
+    font-size: 13px;
+    font-family: Verdana;
+    z-index: 1;
+}
+
+.admin .token-input-dropdown-spng {
+	width: 500px;
+}
+
+div.token-input-dropdown-spng p {
+    margin: 0;
+    padding: 5px;
+    font-weight: bold;
+    color: #777;
+}
+
+div.token-input-dropdown-spng ul {
+    margin: 0;
+    padding: 0;
+}
+
+div.token-input-dropdown-spng ul li {
+    background-color: #fff;
+    padding: 3px;
+    margin: 0;
+    list-style-type: none;
+}
+
+div.token-input-dropdown-spng ul li.token-input-dropdown-item-spng {
+    background-color: #fff;
+}
+
+div.token-input-dropdown-spng ul li.token-input-dropdown-item2-spng {
+    background-color: #fff;
+}
+
+div.token-input-dropdown-spng ul li em {
+    font-weight: normal;
+    font-style: normal;
+}
+
+div.token-input-dropdown-spng ul li.token-input-selected-dropdown-item-spng {
+    background-color: #f1f1f1;
+    color: #5d6268;
+}
